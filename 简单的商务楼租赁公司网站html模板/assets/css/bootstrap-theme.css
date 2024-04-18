@@ -98,3 +98,7 @@
 /*           Images            */
 /*******************************/
 .img-rounded { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.img-sizeOfarticle{
+	max-width: 70%;
+	height: auto;
+}
