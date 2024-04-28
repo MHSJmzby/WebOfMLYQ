@@ -52,8 +52,11 @@
       <li>
         <img src="@/assets/imgs/work.svg" width="60px">
         <span style="display: inline-block; width: 70%;">
-          <span class="title">低息融资通道</span>
-          在多家银行伙伴的见证下，通过对物流过程中的全过程监督、担保、负责，为企业提供安全放心的低息融资通道。
+          <span class="title">合作伙伴</span>
+          创建了围绕国企央企为战略合作
+          伙伴，服务国企央企周边赖以生
+          存的民营企业，同时国企央企，
+          运联优企，银行共同签定合作协议。
         </span>
 
 
@@ -72,6 +75,7 @@ export default {
 #ourServices {
   margin: 20px 20%;
   padding-bottom: 60px;
+
   .services {
     list-style: none;
     display: flex;
@@ -86,16 +90,18 @@ export default {
       border: 1px solid #ccc;
       margin-top: 20px;
 
-      .title{
+      .title {
         color: #333;
         font: 24px Oswald, sans-serif;
         margin: 20px 0;
         display: block;
       }
-      span{
+
+      span {
         font-size: 14px
       }
-      img{
+
+      img {
         margin: 20px;
       }
     }
