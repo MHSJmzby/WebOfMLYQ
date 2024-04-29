@@ -1,6 +1,6 @@
 <template>
   <div class="head">
-    <img style="width: 171px;height: 63px;" src="@/assets/imgs/ylyqlogo.jpg">
+    <img style="width: 220px;" src="@/assets/imgs/ylyqlogo.jpg">
     <div class="options">
       <span>
         <routerLink class="el-dropdown-link" to="/">

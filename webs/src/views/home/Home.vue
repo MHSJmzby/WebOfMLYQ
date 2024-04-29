@@ -6,7 +6,7 @@
       <!-- 轮播图 -->
       <el-carousel indicator-position="outside" height="600px">
         <el-carousel-item>
-          <img src="@/assets/imgs/huapian1.jpeg" style="width: 100%;">
+          <img src="@/assets/imgs/yl9.png" style="width: 100%;">
         </el-carousel-item>
         <el-carousel-item v-for="item in 2" :key="item">
           <!-- <img :src="require(`@/assets/imgs/huapian${item}.jpeg`)" style="height: 600px;width: 100%;object-fit: cover;"> -->

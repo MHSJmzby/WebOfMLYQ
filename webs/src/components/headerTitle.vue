@@ -26,9 +26,9 @@ export default {
 
   .headh {
     width: 38%;
-    margin-left: 16%;
+    margin-left: 20%;
     color: #fff;
-    font-weight: normal;
+    font-size: 26px;
     font-family: 'Oswald', sans-serif;
   }
 }
