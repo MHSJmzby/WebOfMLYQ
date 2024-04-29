@@ -20,11 +20,11 @@
         </div>
       </transition>
       <transition name="el-fade-in-linear">
-        <div class="imgbox-1" v-show="pageflag === 2">
-          <div class="img1"><img src="@/assets/imgs/serve/introduction.jpg" alt="">
-            <div class="img1replace"></div>
-          </div>
-          <div class="img2"><img src="@/assets/imgs/serve/link.jpg" alt=""></div>
+        <div class="imgbox-2" v-show="pageflag === 2">
+          <div class="img2"><img class="imgs" src="@/assets/imgs/newPic3.jpeg" alt=""></div>
+          <div class="img2"><img class="imgs" src="@/assets/imgs/newPic1.jpeg" alt=""></div>
+          <div class="img2"><img class="imgs" src="@/assets/imgs/newPic4.png" alt=""></div>
+          <div class="img2"><img class="imgs" src="@/assets/imgs/newPic2.jpeg" alt=""></div>
         </div>
       </transition>
       <transition name="el-zoom-in-top">
@@ -77,16 +77,31 @@ export default {
     position: relative;
     display: flex;
     justify-content: space-around;
-
     .imgbox {
       width: 360px;
       height: 1140px;
-      left: 780px;
-      top: 10px;
-
       img {
         margin-top: 10px;
         margin-bottom: 20px;
+      }
+    }
+  }
+  .imgbox-2 {
+    width: 1600px;
+    height: 820px;
+    margin: 40px 0 0 0;
+    position: relative;
+    display: flex;
+    // justify-content: space-around;
+    .img2{
+      margin: auto 10px;
+      width: 400px;
+      height: 740px;
+      overflow: hidden;
+      .imgs{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        object-fit: cover;
       }
     }
   }
@@ -97,7 +112,6 @@ export default {
     margin: 40px 10% 0px 10%;
     display: flex;
     flex-wrap: wrap;
-
     img {
       margin-bottom: 40px;
     }
@@ -107,7 +121,7 @@ export default {
 img {
   width: 360px;
   object-fit: contain;
-  ;
+;
   margin: 0 20px;
 }
 
@@ -116,8 +130,8 @@ img {
   border: 0;
 
   &:hover {
-    background: -webkit-linear-gradient(90deg,#86d0d1,#009eff,#1134ff); 
-    
+    background: -webkit-linear-gradient(90deg,#86d0d1,#009eff,#1134ff);
+
     color: #000;
   }
 }
